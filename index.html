@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="X-UA-Compatible">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="./images/free-icon-basketball.png" />
+    <title>Basketball</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-section">
+                <div class="logo">
+                    <img class="logo-img" src="./images/logo-basketball.png" alt="logo-tennis">
+                    <p class="logo-text">Територия мячя</p>
+                </div>
+
+            </div>
+
+            <div class="header-title">
+                <h1 class="header-main">Аренда баскетбольной площадки</h1>
+                <h2 class="header-text">для регулярных и разовых тренировок</h2>
+
+                <div class="page-button"><a href="#form" class="btn-main">Оставить заявку</a></div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path d="M 0 0 c 0 0 200 50 500 50 s 500 -50 500 -50 v 101 h -1000 v -100 z"></path>
+            </svg>
+        </div>
+
+    </header>
+    <main class="container">
+        <!-- section-1 -->
+        <section>
+            <div class="hero-main ">
+                <h2 class="hero-main-title">
+                    Арендуйте площадку для командных тренировок
+                </h2>
+                <p class="hero-main-text">
+                    Если со своей командой планируете повышать спортивные и тактические навыки и ищите тренера, то в
+                    Территории мяча помогают достигать новых высот тренерские составы Любительской баскетбольной
+                    академии и Ассоциации развития баскетбола. Подход в каждом случае персональный и требует обсуждения
+                    для определения условий и стоимости.
+                </p>
+                <div class="page-button btn-hero"><a href="#form" class="btn-main ">Оставить заявку</a></div>
+            </div>
+        </section>
+        <!-- section-2 -->
+        <section class="overview">
+            <div class="left">
+                <span class="left-main">Баскетбол в Территории мяча</span>
+                <p class="left-text">
+                    Современный спортивный центр в Киеве для любителей и профессионалов баскетбола.
+                </p>
+                <ul class="left-list">
+                    <li>
+                        <span></span>
+                        В пределах ТТК и 15 минут от м. Театральная
+                    </li>
+                    <li>
+                        <span></span>
+                        7 раздевалок с душевыми
+                    </li>
+                    <li>
+                        <span></span>
+                        5 площадок
+                    </li>
+                    <li>
+                        <span></span>4300 м2 качественного спортивного паркета
+                    </li>
+                    <li>
+                        <span></span>Собственное кафе
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="right">
+                <div class="right-first-section">
+                    <img src="./images/3.png" alt="basketball-court">
+                    <img src="./images/4.png" alt="basketball-court">
+                </div>
+                <div class="right-second-section">
+                    <img src="./images/5.png" alt="basketball-court">
+                    <img src="./images/6.png" alt="locker-room">
+                    <img src="./images/7.png" alt="restaurant">
+                </div>
+            </div>
+        </section>
+        <section class="container table-section">
+            <h2>Стоимость аренды для тренировок</h2>
+            <h3>Баскетбольная площадка</h3>
+
+            <table class="table-prices">
+                <thead>
+                    <tr>
+                        <th class=""></th>
+                        <th class="">Будни</th>
+                        <th class="">Выходные</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody-prices">
+                    <tr>
+                        <td scope="row">c 7:00 до 10:00</td>
+                        <td>6000</td>
+                        <td>6000</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">c 10:00 до 15:00</td>
+                        <td>5000</td>
+                        <td>12000</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">c 15:00 до 18:00</td>
+                        <td>6000</td>
+                        <td>12000</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">c 18:00 до 23:00</td>
+                        <td>12000</td>
+                        <td>12000</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">c 23:00 до 7:00</td>
+                        <td>5000</td>
+                        <td>5000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                Указана стоимость аренды площадки за 1 час для тренировок до&nbsp;18&nbsp;человек. Данная стоимость не
+                применима для проведения и организации мероприятий и соревнований, ценообразование для них
+                согласовывается отдельно, исходя из технического задания.
+            </p>
+        </section>
+
+        <section class="container">
+            <form class=" form-section" id="form" action="./sendmail.php" method="post">
+                <p class="form-title">Оставить заявку</p>
+
+                <div class="form-field">
+                    <label for="name" class="form-label">Имя и фамилия</label>
+                    <input type="text" name="name" id="name" class="form-input" />
+                </div>
+
+                <div class="form-field">
+                    <label for="phone" class="form-label">Телефон</label>
+                    <input type="tel" name="phone" id="phone" class="form-input" placeholder="+380" required />
+                </div>
+
+                <div class="form-field">
+                    <label for="email" class="form-label">Почта</label>
+                    <input type="email" name="email" id="email" class="form-input" />
+                </div>
+
+
+                <div class="policy-field">
+                    <label class="policy-label">
+                        <input class="checkbox" type="checkbox" name="policy"
+                            value="Соглашаюсь с рассылкой и принимаю Условия договора" required />
+                        <a href="./pages/policy.html" class="policy-link"> Соглашаюсь и принимаю условия договора</a>
+                    </label>
+
+                </div>
+
+
+                <div class="sub-btn-box">
+                    <button type="submit" class="submit-btn">Отправить</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="disclaimer">
+            <span>&#169;</span>
+            <p class="disclaimer-text">
+                «Территория мяча» 2016-2022
+            </p>
+        </div>
+    </footer>
+
+    <script src="./js/get_data_form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+.table-section h2 {
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    color: $secondary-text-color;
+
+}
+
+.table-section h3 {
+    text-align: center;
+    margin-top: 0;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: $secondary-text-color;
+
+}
+
+.table-prices {
+    margin: 0 auto;
+    width: 505px;
+    border-collapse: collapse;
+
+    @media(max-width:768px) {
+        width: 320px;
+    }
+
+}
+
+
+.table-prices thead tr th {
+    font-size: 16px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: $third-text-color
+}
+
+
+.tbody-prices tr td {
+    text-align: center;
+    border-top: 1px solid #1f2129;
+    color: $third-text-color
+}
+
+.tbody-prices tr td:nth-child(n+2) {
+    padding: 16px;
+    color: #fde250;
+    background: linear-gradient(50deg, #272933, #282733);
+}
+
+.table-section p {
+    max-width: 505px;
+    margin: 0 auto;
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: 20px;
+    color: $third-text-color
+}

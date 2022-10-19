@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f2129;
+  color: #FFFFFF;
+  font-family: "PT Sans", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title-block {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.title-text {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 2;
+}/*# sourceMappingURL=policy.css.map */

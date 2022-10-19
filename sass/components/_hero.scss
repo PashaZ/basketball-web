@@ -1,0 +1,27 @@
+.hero-main {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+.hero-main-title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hero-main-text {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.9;
+    color: $secondary-text-color;
+
+}
+
+.btn-hero {
+    margin-top: 60px;
+    padding: 12px 28px
+}
